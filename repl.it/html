@@ -1,0 +1,348 @@
+styles: .header {
+  background-color:lightpink;
+}
+.content {
+  background-color:lightgreen;
+}
+.mystyle {
+  font-size:25px;
+}
+
+.content p {
+  font-family:"Comic Sans MS", sans-serif;
+  color:black;
+}
+
+
+img {
+  width:100%;
+}
+
+layout: * {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+/* indicate active page on nav */
+.active {
+    background-color: #4CAF50;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 24px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+index:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Sleep</h1>
+  <p>Facts and more info about sleep</p>
+</div>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="page1.html">Random Facts</a>
+  <a href="page2.html">Health Benefits</a>
+  <a href="page3.html">Scientist Recommendations</a>
+  <a href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>ALways sleep on time!<img src="https://sleepfoundation.org/sites/default/files/styles/sidebar_image/public/images/microsite/asset-thumbs/ESD_0001_why_sleep.jpg?itok=qSMRM8aF"></p>
+  </div>
+  <div class="column middle">
+    
+    <h2>About Sleep</h2>
+    <p>Sleep is a very important part of a human's daily life. It gives us energy and it plays a huge part of our physical health. One of the vital roles of sleep is to help us solidify and consolidate memories. Healthy sleep is critical for everyone, since we all need to retain information and learn skills to thrive in life. </p>
+    <p>We feel more alert, more energetic, happier, and better able to function following a good night of sleep.</p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Would YOU like to know the benefits of sleep?</p>
+  </div>
+</div>
+
+
+  
+</body>
+</html>
+page1: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Random Facts</h1>
+  <p>Here, you will find random facts about sleep.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>
+      - The record for the longest period without sleep is 18 days, 21 hours, 40 minutes during a rocking chair marathon. The record holder reported hallucinations, paranoia, blurred vision, slurred speech and memory and concentration lapses.
+
+      - Anything less than five minutes to fall asleep at night means you're sleep deprived. The ideal is between 10 and 15 minutes, meaning you're still tired enough to sleep deeply, but not so exhausted you feel sleepy by day.
+
+      - REM sleep occurs in bursts totalling about 2 hours a night, usually beginning about 90 minutes after falling asleep.
+
+      - Dreams, once thought to occur only during REM sleep, also occur (but to a lesser extent) in non-REM sleep phases. It's possible there may not be a single moment of our sleep when we are actually dreamless.
+
+
+      - Elephants sleep standing up during non-REM sleep, but lie down for REM sleep.
+</p>
+
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
+page2 :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Health Benefits</h1>
+  <p>Sleep can improve your health.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+    <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Sleep makes you feel better, but its importance goes way beyond just boosting your mood or banishing under-eye circles. Sleep also imroves memory. It makes your </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
+page 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Scientist Recommendations</h1>
+  <p>Scientists have researched sleep a lot.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
+page4: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Contact Info</h1>
+  <p>Would you like to talk to us about your sleep habits?</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
