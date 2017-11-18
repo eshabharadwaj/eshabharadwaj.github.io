@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Health Benefits</h1>
+  <p>Sleep can improve your health.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+    <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>
+      <a href="https://www.helpguide.org/articles/sleep/getting-better-sleep.htm">Click this link to see more about sleep.</a>
+       <p>Amount<img src="http://www.monmouthspine.com/wp-content/uploads_mp/2015/03/sleep_needs_chart.gif"></p>
+    <p>Amount<img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn175/wp-content/uploads/2015/11/sleep_better_icon_1024@2x_ios.png"></p>
+</p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>Sleep plays a vital role in good health and well-being throughout your life. Getting enough quality sleep at the right times can help protect your mental health, physical health, quality of life, and safety. It makes you feel better, but its importance goes way beyond just boosting your mood or banishing under-eye circles. Sleep also imroves memory.</p>
+    <p>Ongoing sleep deficiency can raise your risk for some chronic health problems. Sleep is involved in healing and repair of your heart and blood vessels. Ongoing sleep deficiency is linked to an increased risk of heart disease,kidney disease,high blood pressure, diabetes, and stroke. 
+
+</p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>
+      <a href="http://bettersleep.org/better-sleep/top-15-better-sleep-tips/">This is another link to see more about sleep.</a>
+      <p>Keep a routine<img src="https://www.prevention.com/sites/prevention.com/files/styles/listicle_slide_custom_user_phone_1x/public/static/comp-2592145-alarm-clock.JPG?itok=qqL_t9Yc"></p>
+    </p>
+  </div>
+</div>
+  
+</body>
+</html>
