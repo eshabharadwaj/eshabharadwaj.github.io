@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Random Facts</h1>
+  <p>Here, you will find random facts about sleep.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p> 
+    <iframe width="120" height="120" src="https://www.youtube.com/embed/3eLfn7Ewx_s?rel=0" frameborder="0" allowfullscreen></iframe>
+    <p>Keep a routine<img src="https://dexdtvh98l3e5.cloudfront.net/better-sleep/ae-products-bettersleep-logo-century-300x300.png"></p>
+
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>
+      - The record for the longest period without sleep is 18 days, 21 hours, 40 minutes during a rocking chair marathon. The record holder reported hallucinations, paranoia, blurred vision, slurred speech and memory and concentration lapses.
+
+      - Anything less than five minutes to fall asleep at night means you're sleep deprived. The ideal is between 10 and 15 minutes, meaning you're still tired enough to sleep deeply, but not so exhausted you feel sleepy by day.
+
+      - REM sleep occurs in bursts totalling about 2 hours a night, usually beginning about 90 minutes after falling asleep.
+
+      - Dreams, once thought to occur only during REM sleep, also occur (but to a lesser extent) in non-REM sleep phases. It's possible there may not be a single moment of our sleep when we are actually dreamless.
+
+
+      - Elephants sleep standing up during non-REM sleep, but lie down for REM sleep.
+</p>
+
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>
+      <iframe width="120" height="120" src="https://www.youtube.com/embed/UEVg-tC6nAA?rel=0" frameborder="0" allowfullscreen></iframe></p>
+      <h2>Footer</h2>
+      <p>SLeep well!<img src="https://venturebeat.com/wp-content/uploads/2017/07/shutterstock_420756877.jpg?fit=578%2C384&strip=all"></p>
+      <p>Sleep on time!<img src="https://www.serviceexperts.com/corporate/images/How%20To%20Sleep%20Better-504.jpg"</p>
+      
+  </div>
+</div>
+
+
+  
+</body>
+</html>
