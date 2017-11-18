@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Scientist Recommendations</h1>
+  <p>Scientists have researched sleep a lot.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Link</h2>
+    <a href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/sleep/art-20048379">click this to see a website about sleep</a>
+    <p>dont eat too much before sleeping<img src="http://www.tamug.edu/reslife/images/Sleep%20Better.jpg"></p>
+    <p>BE strict with your sleep habits<img src="https://www.thankyourbody.com/wp-content/uploads/2015/01/Cant-Sleep-Featured.png"></p>
+    <p>Dont sleep too late<img src="https://www.brainscape.com/blog/wp-content/uploads/2011/06/insomnia.jpg"></p>
+
+  </div>
+  <div class="column middle">
+   <div class="mystyle">
+     </div>
+    <h2>How to sleep better</h2>
+    <ul>
+  <li>Wake up at the same time every day.</li>
+  <li>Avoid stimulants past mid-day</li>
+  <li>Get at least 20 to 30 minutes of exercise during the day.</li>
+  <li>Avoid screens an hour before bedtime.</li>
+  <li>Go to sleep at the same time every night.</li>
+  <li>Avoid sleeping in—even on weekends.</li>
+  <li>Be smart about napping</li>
+  <li>Avoid big meals at night</li>
+  <li>Avoid alcohol before bed</li>
+</ul>
+    <p>You can make 8 hours of quality sleep a regular part of your life by scheduling it. Make sleep part of your to-do list and plan your bedtime like you would any other appointment. You wouldn’t miss a meeting to binge watch TV, would you? Be strict about your sleep appointment in the same way. Keep a consistent schedule for sleep and wake times and soon they will become just a part of your regular routine. Support your schedule by creating a bedtime routine that relaxes you with hot baths, good books or soothing music.
+
+</p>
+    </div></div>
+   <div class="footer">
+  <p></p>
+  <table style="width:100%">
+  <tr>
+    <th>Age</th>
+    <th>Recommended amount of sleep</th>
+  </tr>
+  <tr>
+    <td>4 to 12 months</td>
+    <td>12 to 16 hours</td> 
+  </tr>
+  <tr>
+    <td>1 to 2 years</td>
+    <td>11 to 14 hours</td> 
+  </tr>
+  <tr>
+    <td>3 to 5 years</td>
+    <td>10 to 13 hours</td>
+  </tr>
+  <tr>
+    <td>6 to 12 years</td>
+    <td>9 to 12 hours</td>
+  </tr>
+  <tr>
+    <td>13 to 18 years</td>
+    <td>8 to 10 hours</td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+  
+</body>
+</html>
