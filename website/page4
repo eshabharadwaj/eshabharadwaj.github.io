@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="mystyle">
+  <h1>Contact Info</h1>
+  <p>Would you like to talk to us about your sleep habits?</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="page1.html">Random Facts</a>
+  <a class="active" href="page2.html">Health benefits</a>
+  <a class="active" href="page3.html">Scientist Recommendations</a>
+  <a class="active" href="page4.html">Contact</a>
+</div>
+
+<div class="row content">
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Remember to keep a daily routine and dont sleep in too much!</p>
+     <p>SLeep well<img src="https://d2z0k43lzfi12d.cloudfront.net/blog/vcdn175/wp-content/uploads/2015/11/sleep_better_icon_1024@2x_ios.png"></p>
+     <p>SLeep well<img src="http://eggzack.s3.amazonaws.com/cg1-x62alo5s3h-X7z8UXtNP4IB81tmh8znP9r.jpg"></p>
+  </div>
+  <div class="column middle">
+    <h2>Main Content</h2>
+    <p>We hope you got some important information about sleep from this website!</p>
+    <p>Here is our contact info in case you have any questions: sleepbenefitscontact@gmail.com </p>
+  </div>
+  <div class="column side">
+    <h2>Side</h2>
+    <p>Dont forget how important sleep is for your body and health!</p>
+    <p>SLeep well<img src="http://awesoroo.com/wp-content/uploads/2015/05/cute-good-morning-sms-for-her-1.jpg"></p>
+  </div>
+</div>
+
+  
+</body>
+</html>
